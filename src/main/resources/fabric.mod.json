@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "knifemod",
-  "version": "0.0.2.",
+  "version": "${version}",
 
   "name": "Knife Mod",
   "description": "This mod adds a bunch of knifes to Minecraft!",
