@@ -1,21 +1,21 @@
-package kykonoide.knife.mod;
+package kykonoide.knife.mod.ToolMaterials;
 
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class WoodToolMaterial implements ToolMaterial {
+public class GoldToolMaterial implements ToolMaterial {
 
-    public static final WoodToolMaterial INSTANCE = new WoodToolMaterial();
+    public static final GoldToolMaterial INSTANCE = new GoldToolMaterial();
 
     @Override
     public int getDurability() {
-        return 59;
+        return 32;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 2.0F;
+        return 12.0F;
     }
 
     @Override
@@ -30,12 +30,11 @@ public class WoodToolMaterial implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 15;
+        return 22;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.OAK_PLANKS, Items.DARK_OAK_PLANKS, Items.SPRUCE_PLANKS, Items.JUNGLE_PLANKS,
-                Items.ACACIA_PLANKS, Items.BIRCH_PLANKS, Items.CRIMSON_PLANKS, Items.WARPED_PLANKS);
+        return Ingredient.ofItems(Items.GOLD_INGOT);
     }
 }

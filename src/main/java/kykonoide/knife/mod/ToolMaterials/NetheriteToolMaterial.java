@@ -1,40 +1,40 @@
-package kykonoide.knife.mod;
+package kykonoide.knife.mod.ToolMaterials;
 
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class DiamondToolMaterial implements ToolMaterial {
+public class NetheriteToolMaterial implements ToolMaterial {
 
-    public static final DiamondToolMaterial INSTANCE = new DiamondToolMaterial();
+    public static final NetheriteToolMaterial INSTANCE = new NetheriteToolMaterial();
 
     @Override
     public int getDurability() {
-        return 1561;
+        return 2031;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 8.0F;
+        return 9.0F;
     }
 
     @Override
     public float getAttackDamage() {
-        return 3.0F;
+        return 4.0F;
     }
 
     @Override
     public int getMiningLevel() {
-        return 3;
+        return 4;
     }
 
     @Override
     public int getEnchantability() {
-        return 10;
+        return 15;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.DIAMOND);
+        return Ingredient.ofItems(Items.NETHERITE_INGOT);
     }
 }
