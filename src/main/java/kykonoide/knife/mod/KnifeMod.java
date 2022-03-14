@@ -37,9 +37,9 @@ public class KnifeMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		Registry.register(Registry.ITEM, new Identifier("knifemod", "iron_knife"), IRON_KNIFE);
-		Registry.register(Registry.ITEM, new Identifier("knifemod", "stone_knife"), STONE_KNIFE);
 		Registry.register(Registry.ITEM, new Identifier("knifemod", "wooden_knife"), WOODEN_KNIFE);
+		Registry.register(Registry.ITEM, new Identifier("knifemod", "stone_knife"), STONE_KNIFE);
+		Registry.register(Registry.ITEM, new Identifier("knifemod", "iron_knife"), IRON_KNIFE);
 		Registry.register(Registry.ITEM, new Identifier("knifemod", "golden_knife"), GOLDEN_KNIFE);
 		Registry.register(Registry.ITEM, new Identifier("knifemod", "diamond_knife"), DIAMOND_KNIFE);
 		Registry.register(Registry.ITEM, new Identifier("knifemod", "netherite_knife"), NETHERITE_KNIFE);
