@@ -1,0 +1,9 @@
+{
+   "itemGroup.knifemod.general": "Knife Mod",
+   "item.knifemod.iron_knife": "Cuchillo de Hierro",
+   "item.knifemod.stone_knife": "Cuchillo de Piedra",
+   "item.knifemod.wooden_knife": "Cuchillo de Madera",
+   "item.knifemod.golden_knife": "Cuchillo de Oro",
+   "item.knifemod.diamond_knife": "Cuchillo de Diamante",
+   "item.knifemod.netherite_knife": "Cuchillo de Netherite"
+}

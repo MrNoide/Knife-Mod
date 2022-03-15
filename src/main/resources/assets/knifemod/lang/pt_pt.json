@@ -1,0 +1,9 @@
+{
+   "itemGroup.knifemod.general": "Knife Mod",
+   "item.knifemod.iron_knife": "Faca de Ferro",
+   "item.knifemod.stone_knife": "Faca de Pedra",
+   "item.knifemod.wooden_knife": "Faca de Madeira",
+   "item.knifemod.golden_knife": "Faca de Ouro",
+   "item.knifemod.diamond_knife": "Faca de Diamante",
+   "item.knifemod.netherite_knife": "Faca de Netherite"
+}
